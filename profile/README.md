@@ -1,6 +1,6 @@
 # Theta Limited
 
-[Our organization](https://theta.limited/) provides a free and open source UAS geodesy platform which enables a competitive advantage for its users.
+[Theta](https://theta.limited/) provides a free and open source UAS geodesy platform which enables a competitive advantage for its users.
 
 <img width="540" alt="OpenAthena Drone Camera Terrain Raycast Concept Diagram" src="https://github.com/mkrupczak3/OpenAthena/raw/main/assets/OpenAthena_Concept_Diagram.png">
 
@@ -8,7 +8,7 @@
 
 # OpenAthena™ for Android
 
-Our flagship platform "OpenAthena for Android" allows operators of common drones to spot precise geodetic locations on Earth, letting them complete their mission faster and with better accuracy.
+Theta's flagship platform "OpenAthena for Android" allows operators of common drones to spot precise geodetic locations on Earth, letting them complete their mission faster and with better accuracy.
 
 Operators may instantly obtain the exact location of any selected point, providing actionable insights faster. Target resolution is accomplished by combining the sensor metadata embeded in drone images with an offline-ready Digital Elevation Model.
 
