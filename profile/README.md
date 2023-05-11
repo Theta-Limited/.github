@@ -10,9 +10,11 @@
 
 Our flagship platform "OpenAthena for Android" allows operators of common drones to spot precise geodetic locations on Earth, letting them complete their mission faster and with better accuracy.
 
-Target resolution is accomplished by combining the sensor metadata embeded in drone images with an offline-ready Digital Elevation Model. Operators may instantly obtain the exact location of any selected point, providing actionable insights faster. The app's custom data extraction technique supports DJI, Skydio, Autel, and Parrot aircraft. It includes a database of over 40 camera models and automatically accounts for factors such as roll/pitch/yaw, position, crop, focal length, and optical and digital zoom. The geodesy-based target resolution engine then performs a raycast for the selected point towards a digital twin of the Earth as represented by a digital elevation model. The engine precisely accounts for latitudinal variations and the curvature of the Earth.
+Operators may instantly obtain the exact location of any selected point, providing actionable insights faster. Target resolution is accomplished by combining the sensor metadata embeded in drone images with an offline-ready Digital Elevation Model.
 
-The app natively supports WGS84 latitude/longitude, [NATO 1m, 10m, and 100m Grid Refs](https://en.wikipedia.org/wiki/Military_Grid_Reference_System), [CK-42 lat/lon](https://en.wikipedia.org/wiki/SK-42_reference_system), and CK-42 [Gauss Krüger](https://desktop.arcgis.com/en/arcmap/latest/map/projections/gauss-kruger.htm) Grid Ref as output modes.
+The app's custom data extraction technique supports DJI, Skydio, Autel, and Parrot aircraft. It includes a database of over 40 camera models and automatically accounts for factors such as roll/pitch/yaw, position, crop, focal length, and optical and digital zoom. The geodesy-based target resolution engine then performs a raycast for the selected point towards a digital twin of the Earth as represented by a digital elevation model. The engine precisely accounts for latitudinal variations and the curvature of the Earth.
+
+The app natively supports latitude/longitude, [NATO 1m, 10m, and 100m Grid Refs](https://en.wikipedia.org/wiki/Military_Grid_Reference_System), [CK-42 lat/lon](https://en.wikipedia.org/wiki/SK-42_reference_system), and CK-42 [Gauss Krüger](https://desktop.arcgis.com/en/arcmap/latest/map/projections/gauss-kruger.htm) Grid Ref as output modes.
 
 ## Safe, Open, Secure
 
