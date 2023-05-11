@@ -41,6 +41,6 @@ OpenAthena for Android is entirely free to use, and is licensed under the [GPLv3
 
 ## Support and Feedback
 
-Let us help you accomplish your mission. Establish direct contact with our developers through <a href="mailto:support@theta.limited?subject=My Question about OpenAthena" data-type="mailto" data-id="mailto:support@theta.limited?subject=My Question about OpenAthena">.
+Let us help you accomplish your mission. Establish direct contact with our developers through <a href="mailto:support@theta.limited?subject=My Question about OpenAthena" data-type="mailto" data-id="mailto:support@theta.limited?subject=My Question about OpenAthena">support@theta.limited</a>.
 
 Feedback from users is our single most valuable asset. Become involved with our development on GitHub, or submit feedback to <a href="mailto:feedback@theta.limited?subject=My Feedback on OpenAthena" data-type="mailto" data-id="mailto:feedback@theta.limited?subject=My Feedback on OpenAthena">feedback@theta.limited</a> to shape the future of the project.
