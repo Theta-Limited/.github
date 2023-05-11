@@ -2,13 +2,13 @@
 
 [Our organization](https://theta.limited/) provides a free and open source UAS geodesy platform which enables a competitive advantage for its users.
 
-<a href="https://github.com/mkrupczak3/OpenAthena"><img width="540" alt="OpenAthena Drone Camera Terrain Raycast Concept Diagram" src="https://github.com/mkrupczak3/OpenAthena/raw/main/assets/OpenAthena_Concept_Diagram.png"></a>
+<img width="540" alt="OpenAthena Drone Camera Terrain Raycast Concept Diagram" src="https://github.com/mkrupczak3/OpenAthena/raw/main/assets/OpenAthena_Concept_Diagram.png">
 
 <a href="https://github.com/Theta-Limited/OpenAthenaAndroid"><img width="330" alt="OpenAthena arbitrary point location demo gif" src="https://raw.githubusercontent.com/Theta-Limited/OpenAthenaAndroid/master/assets/tap_to_locate_demo_small.gif"></a>
 
 # OpenAthena™ for Android
 
-Our flagship platform "OpenAthena for Android" allows operators of common drones to spot precise geodetic locations on Earth and complete their missions faster and with better accuracy.
+Our flagship platform "OpenAthena for Android" allows operators of common drones to spot precise geodetic locations on Earth, letting them complete their mission faster and with better accuracy.
 
 Target resolution is accomplished by combining the sensor metadata embeded in drone images with an offline-ready Digital Elevation Model. Operators may instantly obtain the exact location of any selected point, providing actionable insights faster. The app's custom data extraction technique supports DJI, Skydio, Autel, and Parrot aircraft. It includes a database of over 40 camera models and automatically accounts for factors such as roll/pitch/yaw, position, crop, focal length, and optical and digital zoom. The geodesy-based target resolution engine then performs a raycast for the selected point towards a digital twin of the Earth as represented by a digital elevation model. The engine precisely accounts for latitudinal variations and the curvature of the Earth.
 
@@ -41,6 +41,6 @@ OpenAthena for Android is entirely free to use, and is licensed under the [GPLv3
 
 ## Support and Feedback
 
-Let us help you accomplish your mission. Establish direct contact with our developers through [support@theta.limited](mailto:support@theta.limited?subject=My Question about OpenAthena).
+Let us help you accomplish your mission. Establish direct contact with our developers through <a href="mailto:support@theta.limited?subject=My Question about OpenAthena" data-type="mailto" data-id="mailto:support@theta.limited?subject=My Question about OpenAthena">.
 
-Feedback from users is our single most valuable asset. Become involved with our development on GitHub, or submit feedback to [feedback@theta.limited](mailto:feedback@theta.limited?subject=My Feedback on OpenAthena) to shape the future of the project.
+Feedback from users is our single most valuable asset. Become involved with our development on GitHub, or submit feedback to <a href="mailto:feedback@theta.limited?subject=My Feedback on OpenAthena" data-type="mailto" data-id="mailto:feedback@theta.limited?subject=My Feedback on OpenAthena">feedback@theta.limited</a> to shape the future of the project.
