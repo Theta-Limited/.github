@@ -8,11 +8,11 @@
 
 # OpenAthena™ for Android
 
-Theta's flagship platform "OpenAthena for Android" allows operators of common drones to spot precise geodetic locations on Earth, letting them complete their mission faster and with better accuracy.
+Theta's platform "OpenAthena for Android" allows operators of common drones to spot precise geodetic locations on Earth, letting them complete their mission faster and with better accuracy.
 
 Operators may instantly obtain the exact location of any selected point, providing actionable insights faster. Target resolution is accomplished by combining the sensor metadata embeded in drone images with an offline-ready Digital Elevation Model.
 
-The app's custom data extraction technique supports DJI, Skydio, Autel, and Parrot aircraft. It includes a database of over 40 camera models and automatically accounts for factors such as roll/pitch/yaw, position, crop, focal length, and optical and digital zoom. The geodesy-based target resolution engine then performs a raycast for the selected point towards a digital twin of the Earth as represented by a digital elevation model. The engine precisely accounts for latitudinal variations and the curvature of the Earth.
+The app's custom data extraction technique supports DJI, Skydio, Autel, and Parrot aircraft. It includes a database of over 40 camera models and automatically accounts for factors such as roll/pitch/yaw, position, crop, focal length, and optical and digital zoom. The geodesy-based target resolution engine then performs a raycast for the selected point towards a digital twin of the Earth as represented by a digital elevation model. The engine precisely accounts for latitudinal variations and the curvature, rotation, and gravity of the Earth.
 
 The app natively supports latitude/longitude, [NATO 1m, 10m, and 100m Grid Refs](https://en.wikipedia.org/wiki/Military_Grid_Reference_System), [CK-42 lat/lon](https://en.wikipedia.org/wiki/SK-42_reference_system), and CK-42 [Gauss Krüger](https://desktop.arcgis.com/en/arcmap/latest/map/projections/gauss-kruger.htm) Grid Ref as output modes.
 
@@ -23,6 +23,15 @@ The app natively supports latitude/longitude, [NATO 1m, 10m, and 100m Grid Refs]
 * All the source code which defines how the app operates is open source, meaning anyone can inspect it.
 
 * Signed builds and a secure software supply chain built entirely from source preclude manipulation by bad actors.
+
+## iOS version
+
+OpenAthena for iOS is available for users of iPhone® and iPad® products:
+
+https://github.com/Theta-Limited/OpenAthenaIOS
+
+<a href="https://github.com/Theta-Limited/OpenAthenaIOS"><img width="330" alt="openathena for ios an arbitrary image point is selected and the coresponding location calculated is displayed" src="https://github.com/Theta-Limited/.github/assets/25494111/86968e65-5fde-4e7f-9201-4ccc7babc193"></a>
+
 
 ## Multiplicative Value
 
