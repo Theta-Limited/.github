@@ -8,7 +8,7 @@
 
 # OpenAthena™ for Android
 
-Theta's platform "OpenAthena for Android" allows operators of common drones to spot precise geodetic locations on Earth, letting them complete their mission faster and with better accuracy.
+Theta's flagship platform [OpenAthena for Android](https://github.com/Theta-Limited/OpenAthenaAndroid) allows operators of common drones to spot precise geodetic locations on Earth, letting them complete their mission faster and with better accuracy.
 
 Operators may instantly obtain the exact location of any selected point, providing actionable insights faster. Target resolution is accomplished by combining the sensor metadata embeded in drone images with an offline-ready Digital Elevation Model.
 
