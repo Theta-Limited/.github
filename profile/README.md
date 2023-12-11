@@ -1,16 +1,18 @@
 # Theta Limited
 
-[Theta](https://theta.limited/) provides a free and open source UAS geodesy platform which enables a competitive advantage for its users.
+[Theta](https://theta.limited/) provides OpenAthena™, a free and open source UAS geodesy platform which enables a competitive advantage for its users.
 
 <img width="540" alt="OpenAthena Drone Camera Terrain Raycast Concept Diagram" src="https://github.com/mkrupczak3/OpenAthena/raw/main/assets/OpenAthena_Concept_Diagram.png">
 
 <a href="https://github.com/Theta-Limited/OpenAthenaAndroid"><img width="330" alt="OpenAthena arbitrary point location demo gif" src="https://raw.githubusercontent.com/Theta-Limited/OpenAthenaAndroid/master/assets/tap_to_locate_demo_small.gif"></a>
 
+Learn more and install at:  **http://OpenAthena.com**
+
 # OpenAthena™ for Android
 
 Theta's flagship platform [OpenAthena for Android](https://github.com/Theta-Limited/OpenAthenaAndroid) allows operators of common drones to spot precise geodetic locations on Earth, letting them complete their mission faster and with better accuracy.
 
-Operators may instantly obtain the exact location of any selected point, providing actionable insights faster. Target resolution is accomplished by combining the sensor metadata embeded in drone images with an offline-ready Digital Elevation Model.
+Operators may instantly obtain the exact location of any selected point within a drone image, providing actionable insights faster. Target resolution is accomplished by combining the sensor metadata embeded in drone images with an offline-ready Digital Elevation Model.
 
 The app's custom data extraction technique supports DJI, Skydio, Autel, and Parrot aircraft. It includes a database of over 40 camera models and automatically accounts for factors such as roll/pitch/yaw, position, crop, focal length, lens distortion, and optical and digital zoom. The geodesy-based target resolution engine then performs a raycast for the selected point towards a digital twin of the Earth as represented by a Digital Elevation Model. The engine precisely accounts for latitudinal variations and the curvature, rotation, and gravity of the Earth.
 
