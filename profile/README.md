@@ -6,8 +6,6 @@
 
 <a href="https://github.com/Theta-Limited/OpenAthenaAndroid"><img width="330" alt="OpenAthena arbitrary point location demo gif" src="https://raw.githubusercontent.com/Theta-Limited/OpenAthenaAndroid/master/assets/tap_to_locate_demo_small.gif"></a>
 
-Learn more and install at:  **http://OpenAthena.com**
-
 # OpenAthena™ for Android
 
 Theta's flagship platform [OpenAthena for Android](https://github.com/Theta-Limited/OpenAthenaAndroid) allows operators of common drones to spot precise geodetic locations on Earth, letting them complete their mission faster and with better accuracy.
