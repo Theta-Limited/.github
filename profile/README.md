@@ -42,9 +42,8 @@ The OpenAthena for Android app supports seamless integrations with platforms suc
 <img width="586" alt="OpenAthena for Android triggers a waypoint to show in Android Team Awarness Kit at the calculated location" src="https://raw.githubusercontent.com/Theta-Limited/OpenAthenaAndroid/master/assets/ATAK_OpenAthena_CoT_Demo_landscape.png">
 
 
-It also supports one tap copy/paste for use with the team messaging platform of your choice:
+It also supports one tap copy/paste for use with the team messaging platform of your choice.
 
-<img width="340" alt="Gif showing text copied to clipboard toast after taping on results box" src="https://raw.githubusercontent.com/Theta-Limited/OpenAthenaAndroid/master/assets/TextCopiedOptimized.gif">
 
 ## Make it yours
 
