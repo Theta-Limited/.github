@@ -32,7 +32,7 @@ https://github.com/Theta-Limited/OpenAthenaIOS
 
 <a href="https://github.com/Theta-Limited/OpenAthenaIOS"><img width="330" alt="openathena for ios an arbitrary image point is selected and the coresponding location calculated is displayed" src="https://github.com/Theta-Limited/.github/assets/25494111/86968e65-5fde-4e7f-9201-4ccc7babc193"></a>
 
-This version of the software is perfect for commercial drone users! This version includes a system which automatically downloads an elevation model for your selected drone image. The app also supports downloading map areas for later offline use.
+This version of the software is perfect for commercial drone users! It includes a system which automatically downloads an elevation model for your selected drone image. The app also supports downloading map areas for later offline use.
 
 ## Multiplicative Value
 
