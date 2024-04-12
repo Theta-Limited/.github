@@ -1,6 +1,6 @@
 # Theta Limited
 
-[Theta](https://theta.limited/) provides OpenAthena™, a free and open source UAS geodesy platform which enables a competitive advantage for its users.
+[Theta](https://theta.limited/) provides OpenAthena™, free and open source software which allows common drones to spot precise locations quickly:
 
 <img width="540" alt="OpenAthena Drone Camera Terrain Raycast Concept Diagram" src="https://github.com/mkrupczak3/OpenAthena/raw/main/assets/OpenAthena_Concept_Diagram.png">
 
@@ -8,11 +8,11 @@
 
 # OpenAthena™ for Android
 
-Theta's flagship platform [OpenAthena for Android](https://github.com/Theta-Limited/OpenAthenaAndroid) allows operators of common drones to spot precise geodetic locations on Earth, letting them complete their mission faster and with better accuracy.
+Theta's flagship platform [OpenAthena for Android](https://github.com/Theta-Limited/OpenAthenaAndroid) allows operators of common drones to spot precise locations on Earth from anywhere within their images, letting them complete their mission faster and with better accuracy.
 
-Operators may instantly obtain the exact location of any selected point within a drone image, providing actionable insights faster. Target resolution is accomplished by combining the sensor metadata embeded in drone images with an offline-ready Digital Elevation Model.
+Operators may instantly obtain the exact location of any selected point within a drone image, providing actionable insights faster. Target resolution is accomplished by combining the sensor metadata automatically embeded in drone images (containing data such as lat/lon, camera angle, and zoom level) with an offline-ready Digital Elevation Model which stores the altitude of terrain. This unique approach allows instant location analysis using just one drone image, no need for time-consuming mapping or processing!
 
-The app's custom data extraction technique supports DJI, Skydio, Autel, and Parrot aircraft. It includes a database of over 40 camera models and automatically accounts for factors such as roll/pitch/yaw, position, crop, focal length, lens distortion, and optical and digital zoom. The geodesy-based target resolution engine then performs a raycast for the selected point towards a digital twin of the Earth as represented by a Digital Elevation Model. The engine precisely accounts for latitudinal variations and the curvature, rotation, and gravity of the Earth.
+The app's custom data extraction technique supports most DJI, Skydio, Autel, and Parrot aircraft. It includes a database of over 45 camera models and automatically accounts for factors such as roll/pitch/yaw, position, crop, focal length, lens distortion, and optical and digital zoom. The geodesy-based target resolution engine then simulates a raycast for the selected point towards a digital twin of the Earth to give you the precise coordinates of your selected point within the image. The engine precisely accounts for latitudinal variations and the curvature, rotation, and gravity of the Earth.
 
 The app natively supports latitude/longitude, [NATO 1m, 10m, and 100m Grid Refs](https://en.wikipedia.org/wiki/Military_Grid_Reference_System), [CK-42 lat/lon](https://en.wikipedia.org/wiki/SK-42_reference_system), and CK-42 [Gauss Krüger](https://desktop.arcgis.com/en/arcmap/latest/map/projections/gauss-kruger.htm) Grid Ref as output modes.
 
@@ -32,17 +32,15 @@ https://github.com/Theta-Limited/OpenAthenaIOS
 
 <a href="https://github.com/Theta-Limited/OpenAthenaIOS"><img width="330" alt="openathena for ios an arbitrary image point is selected and the coresponding location calculated is displayed" src="https://github.com/Theta-Limited/.github/assets/25494111/86968e65-5fde-4e7f-9201-4ccc7babc193"></a>
 
+This version of the software is perfect for commercial drone users! This version includes a system which automatically downloads an elevation model for your selected drone image. The app also supports downloading map areas for later offline use.
 
 ## Multiplicative Value
 
-The OpenAthena for Android app supports seamless integrations with platforms such as the [Android Team Awareness Kit](https://en.wikipedia.org/wiki/Android_Team_Awareness_Kit) using the industry-standard [Cursor on Target (CoT)](https://www.mitre.org/sites/default/files/pdf/09_4937.pdf) interchange format:
+The OpenAthena apps supports seamless integrations with platforms such as the [Android Team Awareness Kit](https://en.wikipedia.org/wiki/Android_Team_Awareness_Kit) using the industry-standard [Cursor on Target (CoT)](https://www.mitre.org/sites/default/files/pdf/09_4937.pdf) interchange format:
 
 <img width="586" alt="OpenAthena for Android DJI_0419.JPG target shown in Google Maps satellite view" src="https://raw.githubusercontent.com/Theta-Limited/OpenAthenaAndroid/master/assets/0419_maps_screenshot.png">
 
 <img width="586" alt="OpenAthena for Android triggers a waypoint to show in Android Team Awarness Kit at the calculated location" src="https://raw.githubusercontent.com/Theta-Limited/OpenAthenaAndroid/master/assets/ATAK_OpenAthena_CoT_Demo_landscape.png">
-
-
-It also supports one tap copy/paste for use with the team messaging platform of your choice.
 
 
 ## Make it yours
