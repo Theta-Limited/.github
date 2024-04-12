@@ -36,7 +36,7 @@ This version of the software is perfect for commercial drone users! It includes 
 
 ## Multiplicative Value
 
-The OpenAthena apps supports seamless integrations with platforms such as the [Android Team Awareness Kit](https://en.wikipedia.org/wiki/Android_Team_Awareness_Kit) using the industry-standard [Cursor on Target (CoT)](https://www.mitre.org/sites/default/files/pdf/09_4937.pdf) interchange format:
+The OpenAthena apps support seamless integrations with platforms such as the [Android Team Awareness Kit](https://en.wikipedia.org/wiki/Android_Team_Awareness_Kit) using the industry-standard [Cursor on Target (CoT)](https://www.mitre.org/sites/default/files/pdf/09_4937.pdf) interchange format:
 
 <img width="586" alt="OpenAthena for Android DJI_0419.JPG target shown in Google Maps satellite view" src="https://raw.githubusercontent.com/Theta-Limited/OpenAthenaAndroid/master/assets/0419_maps_screenshot.png">
 
