@@ -8,7 +8,7 @@
 
 # OpenAthena™ for Android
 
-Theta's flagship platform [OpenAthena for Android](https://github.com/Theta-Limited/OpenAthenaAndroid) allows operators of common drones to spot precise locations on Earth from anywhere within their images, letting them complete their mission faster and with better accuracy.
+Theta's flagship platform [OpenAthena for Android](https://github.com/Theta-Limited/OpenAthenaAndroid) allows operators of COTS drones to obtain a precise location from any pixel of a single drone image.
 
 Operators may instantly obtain the exact location of any selected point within a drone image, providing actionable insights faster. Target resolution is accomplished by combining the sensor metadata automatically embeded in drone images (containing data such as lat/lon, camera angle, and zoom level) with an offline-ready Digital Elevation Model which stores the altitude of terrain. This unique approach allows instant location analysis using just one drone image, no need for time-consuming mapping or processing!
 
