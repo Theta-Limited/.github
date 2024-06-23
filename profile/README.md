@@ -1,6 +1,6 @@
 # Theta Limited
 
-[Theta](https://theta.limited/) provides OpenAthena™, free and open source software which allows common drones to spot precise locations quickly:
+[Theta](https://theta.limited/) provides OpenAthena™, open source software which allows common drones to spot precise locations quickly:
 
 <img width="540" alt="OpenAthena Drone Camera Terrain Raycast Concept Diagram" src="https://github.com/mkrupczak3/OpenAthena/raw/main/assets/OpenAthena_Concept_Diagram.png">
 
