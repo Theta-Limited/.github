@@ -45,7 +45,7 @@ The OpenAthena apps support seamless integrations with platforms such as the [An
 
 ## Make it yours
 
-OpenAthena for Android is entirely free to use, and is licensed under the [GPLv3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) to protect your rights as a user. You have inalienable rights to view the source code of the App and/or modify the App to your own specifications. You may (subject to local and international law) distribute the App with any modifications you have made, provided that you give your users the very same rights.
+OpenAthena for Android is entirely free to use, and is licensed under the [AGPLv3.0](https://www.gnu.org/licenses/agpl-3.0.en.html) to protect your rights as a user. You have inalienable rights to view the source code of the App and/or modify the App to your own specifications. You may (subject to local and international law) distribute the App with any modifications you have made, provided that you give your users the very same rights.
 
 ## Support and Feedback
 
