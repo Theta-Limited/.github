@@ -14,11 +14,11 @@ Operators may instantly obtain the exact location of any selected point within a
 
 The app's custom data extraction technique supports most DJI, Skydio, Autel, and Parrot aircraft. It includes a database of over 45 camera models and automatically accounts for factors such as roll/pitch/yaw, position, crop, focal length, lens distortion, and optical and digital zoom. The geodesy-based target resolution engine then simulates a raycast for the selected point towards a digital twin of the Earth to give you the precise coordinates of your selected point within the image. The engine precisely accounts for latitudinal variations and the curvature, rotation, and gravity of the Earth.
 
-The app natively supports latitude/longitude, [NATO 1m, 10m, and 100m Grid Refs](https://en.wikipedia.org/wiki/Military_Grid_Reference_System), [CK-42 lat/lon](https://en.wikipedia.org/wiki/SK-42_reference_system), and CK-42 [Gauss Krüger](https://desktop.arcgis.com/en/arcmap/latest/map/projections/gauss-kruger.htm) Grid Ref as output modes.
+The app natively supports latitude/longitude, UTM, [NATO 1m, 10m, and 100m Grid Refs](https://en.wikipedia.org/wiki/Military_Grid_Reference_System), [CK-42 lat/lon](https://en.wikipedia.org/wiki/SK-42_reference_system), and CK-42 [Gauss Krüger](https://desktop.arcgis.com/en/arcmap/latest/map/projections/gauss-kruger.htm) Grid Ref as output modes.
 
 ## Safe, Open, Secure
 
-* All data processing occurs offline (once a Digital Elevation Model is loaded locally). This keeps your data private and secure.
+* All data processing occurs offline (once a Digital Elevation Model is loaded automatically). This keeps your data private and secure.
 
 * All the source code which defines how the app operates is open source, meaning anyone can inspect it.
 
@@ -32,7 +32,6 @@ https://github.com/Theta-Limited/OpenAthenaIOS
 
 <a href="https://github.com/Theta-Limited/OpenAthenaIOS"><img width="330" alt="openathena for ios an arbitrary image point is selected and the coresponding location calculated is displayed" src="https://github.com/Theta-Limited/.github/assets/25494111/86968e65-5fde-4e7f-9201-4ccc7babc193"></a>
 
-This version of the software is perfect for commercial drone users! It includes a system which automatically downloads an elevation model for your selected drone image. The app also supports downloading map areas for later offline use.
 
 ## Multiplicative Value
 
