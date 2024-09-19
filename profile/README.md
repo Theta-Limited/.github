@@ -18,7 +18,7 @@ The app natively supports latitude/longitude, [NATO 1m, 10m, and 100m Grid Refs]
 
 ## Safe, Open, Secure
 
-* All data processing occurs offline and requires no networked API calls. This keeps your data private and secure.
+* All data processing occurs offline (once a Digital Elevation Model is loaded locally). This keeps your data private and secure.
 
 * All the source code which defines how the app operates is open source, meaning anyone can inspect it.
 
