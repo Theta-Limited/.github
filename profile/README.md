@@ -1,6 +1,6 @@
-# Theta Limited
+# Theta Informatics LLC
 
-[Theta](https://theta.limited/) provides OpenAthena™, open source software which allows common drones to spot precise locations quickly:
+[Theta Informatics LLC](https://theta.limited/) provides OpenAthena™, open source software which allows common drones to spot precise locations quickly:
 
 <img width="540" alt="OpenAthena Drone Camera Terrain Raycast Concept Diagram" src="https://github.com/mkrupczak3/OpenAthena/raw/main/assets/OpenAthena_Concept_Diagram.png">
 
@@ -32,6 +32,24 @@ https://github.com/Theta-Limited/OpenAthenaIOS
 
 <a href="https://github.com/Theta-Limited/OpenAthenaIOS"><img width="330" alt="openathena for ios an arbitrary image point is selected and the coresponding location calculated is displayed" src="https://github.com/Theta-Limited/.github/assets/25494111/86968e65-5fde-4e7f-9201-4ccc7babc193"></a>
 
+# OpenAthena™ Core
+
+Theta Informatics' **OpenAthena™ Core** makes OpenAthena's novel terrain-raycast technique available as a portable Java software library. Unlike the mobile Android and iOS versions, OpenAthena Core is designed and licensed to enable you to integrate the software's novel terrain-raycast technique into your own firm's solutions.
+
+<a href="https://theta.limited/openathena-core"><img width="586" alt="OpenAthena Desktop and Core demo" src="https://github.com/user-attachments/assets/20c55801-ec56-402d-8bbb-847301a47298"></a>
+
+
+OpenAthena Core is provided to purchasers as a Java software library with full source code. This allows OpenAthena Core to be extremely flexible for integration as a component of your own proprietary solution. It features a command line interface, Java bindings, and remote use over a RESTful API for seamless integration with your existing software:
+
+<img width="586" alt="OpenAthena Core RESTful API demo" src="https://github.com/user-attachments/assets/72bd5e17-bd9b-4fd8-b732-465369e53a08">
+
+<br><br>
+
+More info is available at [https://theta.limited/openathena-core](https://theta.limited/openathena-core)
+
+Contact <a href="mailto:sales@theta.limited?subject=OpenAthena-Core Evaluation License">sales@theta.limited</a> to obtain a free evaluation copy for your developers.
+
+<br>
 
 ## Multiplicative Value
 
