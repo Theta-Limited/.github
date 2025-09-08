@@ -1,6 +1,6 @@
 # Theta Informatics LLC
 
-[Theta Informatics LLC](https://theta.limited/) provides OpenAthena™, open source software which allows common drones to spot precise locations quickly:
+[Theta Informatics LLC](https://theta.limited/) provides OpenAthena™, software which allows common drones to spot precise locations quickly:
 
 <img width="540" alt="OpenAthena Drone Camera Terrain Raycast Concept Diagram" src="https://github.com/mkrupczak3/OpenAthena/raw/main/assets/OpenAthena_Concept_Diagram.png">
 
@@ -12,15 +12,13 @@ Theta's flagship platform [OpenAthena for Android](https://github.com/Theta-Limi
 
 Operators may instantly obtain the exact location of any selected point within a drone image, providing actionable insights faster. Target resolution is accomplished by combining the sensor metadata automatically embeded in drone images (containing data such as lat/lon, camera angle, and zoom level) with an offline-ready Digital Elevation Model which stores the altitude of terrain. This unique approach allows instant location analysis using just one drone image, no need for time-consuming mapping or processing!
 
-The app's custom data extraction technique supports most DJI, Skydio, Autel, and Parrot aircraft. It includes a database of over 45 camera models and automatically accounts for factors such as roll/pitch/yaw, position, crop, focal length, lens distortion, and optical and digital zoom. The geodesy-based target resolution engine then simulates a raycast for the selected point towards a digital twin of the Earth to give you the precise coordinates of your selected point within the image. The engine precisely accounts for latitudinal variations and the curvature, rotation, and gravity of the Earth.
+The app's custom data extraction technique supports most Skydio, Parrot, Teal, Autel, and DJI aircraft. It includes a database of over 60 camera models (including both color and thermal cameras) and automatically accounts for factors such as roll/pitch/yaw, position, crop, focal length, lens distortion, and optical and digital zoom. The geodesy-based target resolution engine then simulates a raycast for the selected point towards a digital twin of the Earth to give you the precise coordinates of your selected point within the image. The engine precisely accounts for latitudinal variations and the curvature, rotation, and gravity of the Earth.
 
 The app natively supports latitude/longitude, UTM, [NATO 1m, 10m, and 100m Grid Refs](https://en.wikipedia.org/wiki/Military_Grid_Reference_System), [CK-42 lat/lon](https://en.wikipedia.org/wiki/SK-42_reference_system), and CK-42 [Gauss Krüger](https://desktop.arcgis.com/en/arcmap/latest/map/projections/gauss-kruger.htm) Grid Ref as output modes.
 
-## Safe, Open, Secure
+## Safe, Secure
 
 * All data processing occurs offline (once a Digital Elevation Model is loaded automatically). This keeps your data private and secure.
-
-* All the source code which defines how the app operates is open source, meaning anyone can inspect it.
 
 * Signed builds and a secure software supply chain built entirely from source preclude manipulation by bad actors.
 
@@ -31,6 +29,14 @@ OpenAthena for iOS is available for users of iPhone® and iPad® products:
 https://github.com/Theta-Limited/OpenAthenaIOS
 
 <a href="https://github.com/Theta-Limited/OpenAthenaIOS"><img width="330" alt="openathena for ios an arbitrary image point is selected and the coresponding location calculated is displayed" src="https://github.com/Theta-Limited/.github/assets/25494111/86968e65-5fde-4e7f-9201-4ccc7babc193"></a>
+
+# api.openathena.com
+
+Theta Informatics LLC hosts a RESTful API service at [https://api.openathena.com](https://api.openathena.com) which makes OpenAthena's terrain-raycast technique available to your own hardware and software applications. To request a free evaluation API key, email <a href="mailto:info@theta.limited?subject=api.openathena.com Evaluation API Key">info@theta.limited</a>.
+
+Deep Dive and video demo:
+[https://www.youtube.com/watch?v=it9khfq-IeQ](https://www.youtube.com/watch?v=it9khfq-IeQ)
+
 
 # OpenAthena™ Core
 
@@ -47,7 +53,7 @@ OpenAthena Core is provided to purchasers as a Java software library with full s
 
 More info is available at [https://theta.limited/openathena-core](https://theta.limited/openathena-core)
 
-Contact <a href="mailto:sales@theta.limited?subject=OpenAthena-Core Evaluation License">sales@theta.limited</a> to obtain a free evaluation copy for your developers.
+Contact <a href="mailto:info@theta.limited?subject=OpenAthena-Core Evaluation License">info@theta.limited</a> to obtain a free evaluation copy for your developers.
 
 <br>
 
@@ -60,9 +66,10 @@ The OpenAthena apps support seamless integrations with platforms such as the [An
 <img width="586" alt="OpenAthena for Android triggers a waypoint to show in Android Team Awarness Kit at the calculated location" src="https://raw.githubusercontent.com/Theta-Limited/OpenAthenaAndroid/master/assets/ATAK_OpenAthena_CoT_Demo_landscape.png">
 
 
-## Make it yours
+## It's free real estate 
 
-OpenAthena for Android is entirely free to use, and is licensed under the [AGPLv3.0](https://www.gnu.org/licenses/agpl-3.0.en.html) to protect your rights as a user. You have inalienable rights to view the source code of the App and/or modify the App to your own specifications. You may (subject to local and international law) distribute the App with any modifications you have made, provided that you give your users the very same rights.
+OpenAthena for Android is entirely free to use.
+
 
 ## Support and Feedback
 
